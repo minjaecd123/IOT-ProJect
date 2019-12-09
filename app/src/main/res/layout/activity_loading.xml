@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="360dp"
+    android:layout_height="640dp"
+    tools:context=".Loading"
+    android:background="#f8f6da">
+
+    <ImageView
+        android:id="@+id/im_01"
+        android:layout_width="360dp"
+        android:layout_height="620dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/loading" />
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="207dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart Unity"
+            android:textSize="30sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/tv_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="블루투스 연결을 시작하겠습니다"
+            android:textSize="20sp"
+            android:textColor="#afaf91"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</FrameLayout>

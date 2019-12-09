@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="360dp"
+    android:layout_height="620dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#050505"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="6dp" />
+
+        <ImageButton
+            android:layout_width="36dp"
+            android:layout_height="50dp"
+            android:src="@drawable/help2"
+            android:id="@+id/help"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35sp"
+            android:layout_marginRight="20sp"
+            android:fontFamily="sans-serif-black"
+            android:text="MY HOME"
+            android:textColor="#ffffff"
+            android:textSize="40sp" />
+
+        <ImageButton
+            android:id="@+id/im_01"
+            android:layout_width="43dp"
+            android:layout_height="56dp"
+            android:src="@drawable/mic" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:gravity="center">
+
+        <WebView
+            android:id="@+id/wv_01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+    // 1번 버튼라인
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="#f6d0a9">
+
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="3dp"
+                android:src="@drawable/light" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:gravity="center"
+                android:text="현관등"
+                android:textColor="#0A0A0A"
+                android:textSize="15sp" />
+
+            <Switch
+                android:id="@+id/sw_05"
+                android:layout_width="51dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="1"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="#c2ac7a">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:src="@drawable/door" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="문"
+                android:textColor="#0A0A0A"
+                android:textSize="15sp" />
+
+            <Switch
+                android:id="@+id/sw_06"
+                android:layout_width="52dp"
+                android:layout_height="48dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    // 3번 버튼라인
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="#e69b7b">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:src="@drawable/kitchen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="주방"
+                android:textColor="#0A0A0A"
+                android:textSize="15sp" />
+
+            <Switch
+                android:id="@+id/sw_01"
+                android:layout_width="52dp"
+                android:layout_height="25dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="#b3d0ee">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:src="@drawable/badroom" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="안방"
+                android:textColor="#0A0A0A"
+                android:textSize="15sp" />
+
+            <Switch
+                android:id="@+id/sw_04"
+                android:layout_width="52dp"
+                android:layout_height="25dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    // 5번 버튼라인
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#8ca16a"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="#a0cdb6">
+
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="29dp"
+                android:src="@drawable/restroom" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="화장실"
+                android:textColor="#0A0A0A"
+                android:textSize="15sp" />
+
+            <Switch
+                android:id="@+id/sw_02"
+                android:layout_width="52dp"
+                android:layout_height="42dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="#fbe899">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/fence" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="외부 등"
+                android:textColor="#0A0A0A"
+                android:textSize="15sp" />
+
+            <Switch
+                android:id="@+id/sw_03"
+                android:layout_width="52dp"
+                android:layout_height="54dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
